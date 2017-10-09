@@ -28,7 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-header, h1, h2, h3, h4, h5, h6{
+h2 {
+  font: 300 25px/50px "Lato", Arial, sans-serif;
+	text-align: center;
+}
+header, h1, h3, h4, h5, h6{
   font: 300 16px/22px "Lato", Arial, sans-serif;
 }
 p, article, aside{
@@ -80,16 +84,11 @@ nav {
   margin: -2em;
   color: white;
   text-decoration: none;
-  width: 250px;
-
+  width: 20%;
   font: 400 16px/22px "Lato", Arial, sans-serif;
 }
 
-div.mid {
-  height: 59px;
-}
-
-h3 {
+.menu h3 {
   margin-top: 68px;
   margin-right: 100px;
   float: right;
@@ -98,4 +97,34 @@ h3 {
 #mid_pic {
   height: 500px;
   background-image: url("../images/ProArt.jpg");
+}
+
+#topic {
+	display: inline-block;
+	width: 24%;
+	margin-left: 5%;
+	margin-right: 4%;
+	margin-bottom: 4%;
+}
+
+#topic h3 {
+	width: auto;
+	text-align: left;
+	margin-top: 60px;
+	color: #53575e;
+}
+
+#topic img {
+	display: block;
+	height: 200px;
+	width: 300px;
+}
+
+#topic p {
+	text-align: justify;
+}
+
+footer {
+	height: 150px;
+	background-color: #1663aa;
 }
