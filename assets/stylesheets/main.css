@@ -23,16 +23,31 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/*
+COLORS
+DarkBlue #0149D3
+DarkGray #020202
+LightBlue #0254F6
+LightGray #2E2E2E
+*/
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+h1 {
+	font: 700 45px/100px "Lato", Arial, sans-serif;
+	text-align: center;
+	color: #0254F6;
+}
+
 h2 {
   font: 300 25px/50px "Lato", Arial, sans-serif;
 	text-align: center;
 }
-header, h1, h3, h4, h5, h6{
+header, h3, h4, h5, h6{
   font: 300 16px/22px "Lato", Arial, sans-serif;
 }
 p, article, aside{
@@ -59,7 +74,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*INDEX.HTML BEGIN*/
 .menu img {
   width: 276px;
   height: 80px;
@@ -131,5 +146,27 @@ footer {
 }
 
  div.ph {
-	 height: 200px;
+	 min-height: 400px;
  }
+/*INDEX.HTML END*/
+
+/*SPONSORS.HTML BEGIN*/
+.Sponsor h1 {
+}
+.Sponsor img {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+#AD {
+	margin-left: 200px;
+	margin-bottom: 55px;
+}
+
+#S {
+	width: 471;
+	height: 107;
+	margin-left: 150px;
+	margin-bottom: 90px;
+}
+/*SPONSORS.HTML END*/
