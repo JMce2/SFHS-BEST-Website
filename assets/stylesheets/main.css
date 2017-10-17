@@ -41,6 +41,7 @@ p, article, aside{
 
 body {
 	line-height: 1;
+	min-width: 1250px;
 }
 
 ol, ul {
@@ -67,7 +68,7 @@ table {
 
 .menu div.nav {
   height: 65px;
-  background-color: #1663aa;
+  background-color: #2E2E2E;
 }
 
 nav {
@@ -126,7 +127,7 @@ nav {
 
 footer {
 	height: 150px;
-	background-color: #1663aa;
+	background-color: #2E2E2E;
 }
 
  div.ph {
