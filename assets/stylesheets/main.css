@@ -54,7 +54,7 @@ header, h3, h4, h5, h6{
   font: 300 16px/22px "Lato", Arial, sans-serif;
 }
 p, article, aside{
-  font: 300 16px/22px "Raleway", Arial, sans-serif;
+  font: 400 16px/22px "Raleway", Arial, sans-serif;
 }
 
 body {
@@ -116,7 +116,7 @@ nav {
 
 #mid_pic {
   height: 500px;
-  background-image: url("../images/ProArt.jpg");
+  background-image: url("../images/proart.jpg");
 }
 
 #topic {
@@ -154,6 +154,15 @@ footer {
  }
 /*INDEX.HTML END*/
 
+/*COMPANY.HTML BEGIN*/
+.company p {
+	margin-left: 65px;
+	margin-right: 65px;
+	font: 400 20px/30px "Raleway", Arial, sans-serif;
+}
+
+/*COMPANY.HTML END*/
+
 /*SPONSORS.HTML BEGIN*/
 .Sponsor h1 {
 }
@@ -174,3 +183,19 @@ footer {
 	margin-bottom: 90px;
 }
 /*SPONSORS.HTML END*/
+
+/*g_champagne.HTML BEGIN*/
+#g_champagne h1 {
+	font: 700 25px/50px "Lato", Arial, sans-serif;
+	text-align: center;
+	color: #ffff00;
+}
+.pineapple1 img {
+	width: 96px;
+	height: 203px;
+}
+#gc{
+	width: 300px;
+	height: 300px;
+}
+/*g_champagne.HTML END*/
