@@ -119,28 +119,85 @@ nav {
   background-image: url("../images/midpic.jpg");
 }
 
-#topic {
+#safety {
 	display: inline-block;
 	width: 24%;
 	margin-left: 5%;
 	margin-right: 4%;
 	margin-bottom: 4%;
+	vertical-align: top;
 }
 
-#topic h3 {
+#safety h3 {
 	width: auto;
 	text-align: left;
 	margin-top: 60px;
 	color: #53575e;
 }
 
-#topic img {
+#safety img {
 	display: block;
 	height: 200px;
 	width: 300px;
 }
 
-#topic p {
+#safety p {
+	text-align: justify;
+}
+
+#programming {
+	display: inline-block;
+	width: 24%;
+	margin-left: 5%;
+	margin-right: 4%;
+	margin-bottom: 4%;
+	vertical-align: top;
+}
+
+#programming h3 {
+	width: auto;
+	text-align: left;
+	margin-top: 60px;
+	color: #53575e;
+}
+
+#programming img {
+	display: block;
+	height: 200px;
+	width: 275px;
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+}
+
+#programming p {
+	text-align: justify;
+}
+
+#sketch {
+	display: inline-block;
+	width: 24%;
+	margin-left: 5%;
+	margin-right: 4%;
+	margin-bottom: 4%;
+	vertical-align: top;
+}
+
+#sketch h3 {
+	width: auto;
+	text-align: left;
+	margin-top: 60px;
+	color: #53575e;
+}
+
+#sketch img {
+	display: block;
+	height: 195px;
+	width: 300px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+}
+
+#sketch p {
 	text-align: justify;
 }
 
@@ -148,6 +205,7 @@ footer {
 	height: 150px;
 	background: #6D0301;
 }
+
 
  div.ph {
 	 min-height: 400px;
