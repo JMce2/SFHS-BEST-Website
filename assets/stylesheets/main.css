@@ -283,8 +283,52 @@ footer {
 	margin-bottom: 35px;
 	font: 400 20px/30px "Raleway", Arial, sans-serif;
 }
-
 /*COMPANY.HTML END*/
+
+/*ROBOT.HTML BEGIN*/
+.drive h2 {
+	display: block;
+	vertical-align: top;
+}
+.drive p, img {
+	display: inline-block;
+}
+.drive img {
+	width: 216;
+	height: 150px;
+}
+.drive p {
+	width: 700px;
+}
+
+.scoop h2 {
+	display: block;
+}
+.scoop p, img {
+	display: inline-block;
+}
+.scoop img {
+	width: 211px;
+	height: 118px;
+}
+.scoop p {
+	width: 600px;
+}
+
+.shoot h2 {
+	display: block;
+}
+.shoot p, img {
+	display: inline-block;
+}
+.shoot img {
+	width: 298px;
+	height: 204px;
+}
+.shoot p {
+	width: 600px;
+}
+/*ROBOT.HTML END*/
 
 /*SPONSORS.HTML BEGIN*/
 .Sponsor h1 {
