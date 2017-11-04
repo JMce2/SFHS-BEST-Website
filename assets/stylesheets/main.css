@@ -289,44 +289,78 @@ footer {
 .drive h2 {
 	display: block;
 	vertical-align: top;
+	font: 700 30px/30px "Lato", Arial, sans-serif;
+	margin-top: 20px;
 }
 .drive p, img {
 	display: inline-block;
+	font: 400 20px/30px "Raleway", Arial, sans-serif;
 }
 .drive img {
-	width: 216;
-	height: 150px;
+	width: 300;
+	height: 225px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 .drive p {
-	width: 700px;
+	width: 800px;
+	font: 400 20px/30px "Raleway", Arial, sans-serif;
+	vertical-align: top;
+	margin-top: 20px;
 }
 
 .scoop h2 {
 	display: block;
+	font: 700 30px/30px "Lato", Arial, sans-serif;
+	margin-top: 25px;
 }
 .scoop p, img {
 	display: inline-block;
+	font: 400 20px/30px "Raleway", Arial, sans-serif;
 }
 .scoop img {
-	width: 211px;
-	height: 118px;
+	width: 302px;
+	height: 227px;
+	margin-left: 50px;
+	margin-right: 86px;
+	margin-top: 50px;
 }
 .scoop p {
-	width: 600px;
+	width: 800px;
+	margin-top: 20px;
+	vertical-align: top;
 }
 
 .shoot h2 {
 	display: block;
+	font: 700 30px/30px "Lato", Arial, sans-serif;
+	margin-top: 25px;
 }
 .shoot p, img {
 	display: inline-block;
+	font: 400 20px/30px "Raleway", Arial, sans-serif;
 }
 .shoot img {
 	width: 298px;
 	height: 204px;
+	margin-left: 90px;
+	margin-right: 50px;
+	margin-top: 5px;
 }
 .shoot p {
-	width: 600px;
+	width: 800px;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+
+#buy {
+	margin: 270px;
+	margin-right: 210px;
+}
+
+#robopic {
+	margin-bottom: 25px;
 }
 /*ROBOT.HTML END*/
 
